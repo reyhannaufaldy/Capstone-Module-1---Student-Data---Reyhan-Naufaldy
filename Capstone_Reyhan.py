@@ -237,7 +237,7 @@ def create_data():
 
         # Cek apakah SID sudah ada di data_siswa
         if any(siswa['SID'] == sid for siswa in data_siswa):
-            print('\n    *****SID telah terdapat di Daftar Nilai Siswa*****')
+            print('\n    *****Student ID telah terdaftar di Daftar Nilai Siswa*****')
         else:
             nama = input('    Input nama siswa: ')
             while not all(word.isalpha() for word in nama.split()):
